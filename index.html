@@ -1,34 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Elmer Merto | Portfolio</title>
-  <link rel="stylesheet" href="style.css" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> Digital Porfolio | Elmer Merto | Details and Works </title>
+    <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
-  <header class="text-center p-5 bg-dark text-white">
-    <h1>Elmer Merto</h1>
-    <p>Software Developer | Python | Web Dev | Cybersecurity</p>
-  </header>
 
-  <section class="container my-5">
-    <h2>About Me</h2>
-    <p>I’m a versatile developer with ~3 years of experience in Python, web dev, and data automation...</p>
-  </section>
+    <!-- Navigation Header -->
+    <nav>
+        <div class="nav-container">
+            <a href="#" class="nav-logo" data-target="landing">
+                <img src="src/avatar.png" alt="Elmer Merto" class="nav-avatar" />
+                Elmer Merto
+            </a>
 
-  <section class="container my-5">
-    <h2>Projects</h2>
-    <div id="projects"></div>
-  </section>
+            <ul class="nav-links">
+                <li><a href="#" data-target="about">About</a></li>
+                <li><a href="#" data-target="projects">Projects</a></li>
+                <li><a href="#" data-target="contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
 
-  <section class="container my-5">
-    <h2>Contact</h2>
-    <p>Email: elmermerto.fl@gmail.com | <a href="https://linkedin.com/in/000-elmer-merto">LinkedIn</a></p>
-  </section>
+    <!-- Landing Section -->
+    <section id="landing" class="section visible">
+        <h1>Hi, I'm Elmer Merto</h1>
+        <p>A Software Developer focused on practical, performance-driven solutions using Python, PHP, and automation
+            tools.</p>
+    </section>
 
-  <footer class="text-center p-3 bg-light">© 2025 Elmer Merto</footer>
-  <script src="scripts.js"></script>
+    <!-- About Section -->
+    <section id="about" class="section">
+        <h2>About Me</h2>
+        <p>
+            I'm a versatile developer with nearly 3 years of experience in backend web development, data scraping, and
+            security scripting.
+            I’ve built ERP tools, scraping frameworks, and threat analysis tools.
+            I'm currently looking for a role where I can build impactful tools and grow in the cloud and automation
+            space.
+        </p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <h2>Projects</h2>
+        <div id="projects-container"></div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:elmermerto.fl@gmail.com">elmermerto.fl@gmail.com</a></p>
+        <p>LinkedIn: <a href="https://linkedin.com/in/000-elmer-merto"
+                target="_blank">linkedin.com/in/000-elmer-merto</a></p>
+    </section>
+
+    <footer>
+        <p>© 2025 Elmer Merto</p>
+    </footer>
+
+    <script src="scripts.js"></script>
 </body>
+
 </html>
